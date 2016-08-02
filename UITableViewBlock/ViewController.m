@@ -67,7 +67,6 @@
         [self.testTableView deselectRowAtIndexPath:indexPath animated:YES];
         TestViewController *t = [[TestViewController alloc] init];
         [self.navigationController pushViewController:t animated:YES];
-        
     }];
 }
 
